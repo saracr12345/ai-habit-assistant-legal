@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · AI Habit Assistant</title>
+<meta name="description" content="How AI Habit Assistant collects, uses and protects your personal data.">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #e6f3fd; --text: #1a202c; --muted: #667085;
+    --accent: #3d95d8; --accent-deep: #1f6fb0; --border: #e2e8f0;
+    --todo-bg: #fff3cd; --todo-text: #7a4b00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1720; --surface: #182a38; --text: #f2f5f8; --muted: #9aa6b5;
+      --accent: #7cc0f2; --accent-deep: #9fd2f7; --border: #243040;
+      --todo-bg: #4a3a12; --todo-text: #ffe08a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+  header .wrap { padding-top: 32px; padding-bottom: 24px; }
+  .brand { display: flex; align-items: center; gap: 12px; color: var(--accent-deep); font-weight: 600; }
+  .brand-dot { width: 28px; height: 28px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #ffffff 0%, var(--accent) 60%, var(--accent-deep) 100%); }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 16px 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+  h3 { font-size: 1rem; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent-deep); }
+  ul { padding-left: 1.2em; }
+  .summary { background: var(--surface); border-radius: 14px; padding: 16px 20px; margin: 24px 0; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 4px; border-radius: 4px; }
+  nav.toc a { display: inline-block; margin: 2px 10px 2px 0; }
+  footer { margin: 48px 0 32px; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand"><span class="brand-dot" aria-hidden="true"></span>AI Habit Assistant</div>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective 23 November 2026 · Version 1.0</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="summary">
+    <strong>In short:</strong> we collect only what the app needs to track your habits and run its features.
+    We don't sell your data, show ads or track you across other apps or websites. Mood logging is optional and
+    only happens with your explicit consent. You can delete your account and data at any time.
+  </div>
+
+  <nav class="toc" aria-label="Contents">
+    <a href="#who">Who we are</a> <a href="#collect">What we collect</a> <a href="#use">How we use it</a>
+    <a href="#ai">AI features</a> <a href="#sharing">Who we share with</a> <a href="#transfers">International transfers</a>
+    <a href="#retention">How long we keep it</a> <a href="#security">Security</a> <a href="#deletion">Deleting your account</a>
+    <a href="#rights">Your rights</a> <a href="#children">Children and teens</a> <a href="#changes">Changes</a> <a href="#contact">Contact</a>
+  </nav>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>AI Habit Assistant (“the app”, “we”, “us”) is provided by Sara-Michele Craciun,
+  Flat 448, Park West, London W2 2QU, United Kingdom. We are the data controller for the personal data described in this policy.</p>
+  <p>Privacy and support contact: <a href="mailto:testletlink@gmail.com">testletlink@gmail.com</a>.</p>
+
+  <h2 id="collect">2. What we collect</h2>
+  <h3>Account information</h3>
+  <ul>
+    <li><strong>Sign in with Apple:</strong> a unique Apple account identifier and, if you choose to share them, your name and email address (which may be an Apple private relay address).</li>
+    <li><strong>Email sign-in:</strong> your email address and password. Passwords are handled by our authentication provider and stored only in hashed form; we never see them.</li>
+    <li><strong>Guest accounts:</strong> an anonymous account identifier, with no name or email.</li>
+    <li>An optional display name, only if Apple provides one when you first sign in.</li>
+  </ul>
+  <h3>Habit data</h3>
+  <ul>
+    <li>Habits you create: title, category, target, schedule and reminder time.</li>
+    <li>Completion records (which habit, which day, when it was marked).</li>
+    <li>Reminders are scheduled on your device as local notifications. We don't run a push-notification server.</li>
+  </ul>
+  <h3>Mood check-ins (optional, with your explicit consent)</h3>
+  <p>A daily mood score from 1 to 5, an optional note (up to 500 characters), and whether it was logged by tapping or by voice.
+  Because mood can reveal information about your health, we treat it as <strong>special category data</strong> under UK GDPR and
+  only store it after you give explicit consent in the app. See <a href="#mood">Mood consent</a>.</p>
+  <h3>Consent records</h3>
+  <p>When you agree to or withdraw from mood logging, we record when it happened, which version of the consent wording you saw,
+  and (when you withdraw) how many items were deleted. We keep this so we can show that your consent was given and respected.
+  It contains no mood scores or notes.</p>
+  <h3>Voice input</h3>
+  <p>When you speak a habit update, speech is converted to text by <strong>Apple's speech recognition service</strong>, which may process your
+  audio on Apple's servers under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. <strong>We never receive or store your audio</strong>;
+  the app discards it once transcription ends. Only the resulting text is sent to us.</p>
+  <h3>AI feature inputs</h3>
+  <ul>
+    <li>The text of your spoken or typed habit updates, sent for habit parsing.</li>
+    <li>Messages you send to the AI Coach, with a limited summary of your habits and statistics (for example habit names, streaks and completion rates). Your Coach conversation history is stored <strong>only on your device</strong>, not on our servers.</li>
+    <li>For Premium reports: statistics your device has already calculated (completion rates, streaks, trends and mood averages, never mood notes). The statistics and the generated report text are saved to your account so the report can be shown again.</li>
+  </ul>
+  <h3>Usage counts</h3>
+  <p>A daily count of AI requests per account (habit parsing, Coach messages, reports), used to enforce free-tier limits and prevent abuse.</p>
+  <h3>Premium subscriptions</h3>
+  <p>Purchases are made and paid for through Apple's App Store. <strong>We never receive your payment details.</strong>
+  To give your account Premium reliably and securely, we verify each purchase with Apple on our server and store a
+  record of your entitlement: the subscription product, whether it was a test (Sandbox) or real purchase, Apple's
+  original and latest transaction identifiers, when your access expires, and whether it was refunded or revoked.
+  We also receive and log Apple's App Store Server Notifications about renewals, expiries and refunds (the
+  notification type, the date, and the original transaction identifier).</p>
+  <p>So that a purchase can be matched to your AI Habit Assistant account, the app attaches your account's random
+  identifier to the purchase (Apple calls this an <em>app account token</em>). Apple therefore receives that
+  identifier with your purchase. It doesn't include your name or email.</p>
+  <h3>What we don't collect</h3>
+  <p>We don't use advertising, analytics or crash-reporting services, and we don't collect your location, contacts, photos, health-app data or device advertising identifier. We do not track you across other companies' apps or websites.</p>
+
+  <h2 id="use">3. How we use your data and our lawful bases</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Purpose</th><th>Data</th><th>Lawful basis (UK GDPR)</th></tr></thead>
+    <tbody>
+      <tr><td>Create and secure your account; sync your data across sessions</td><td>Account information, habit data</td><td>Contract (Art. 6(1)(b))</td></tr>
+      <tr><td>Turn speech or text into habits; AI Coach; Premium reports</td><td>AI feature inputs, habit data</td><td>Contract (Art. 6(1)(b)), because you ask for these features</td></tr>
+      <tr><td>Mood logging and mood statistics in reports</td><td>Mood check-ins</td><td>Explicit consent (Art. 6(1)(a) and Art. 9(2)(a))</td></tr>
+      <tr><td>Enforce free-tier limits, prevent abuse, keep the service secure</td><td>Usage counts, technical logs</td><td>Legitimate interests (Art. 6(1)(f)) in running a fair, secure service</td></tr>
+      <tr><td>Respond to your requests and meet legal obligations</td><td>Contact details, request records</td><td>Legal obligation (Art. 6(1)(c))</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 id="mood">Mood consent</h3>
+  <ul>
+    <li><strong>Giving consent:</strong> the app asks before your first mood check-in is saved. Your consent is recorded on our servers,
+    so it applies on all your devices. This step needs an internet connection; everything else in the app, including habit tracking, works offline.</li>
+    <li><strong>Earlier check-ins:</strong> if you logged moods before the app asked for consent, we don't include them automatically.
+    You choose whether to include them under your consent or delete them permanently. Until you choose, they stay visible to you but are
+    never used in reports or sent to our AI provider. You can delete them at any time in Profile → Data &amp; Privacy.</li>
+    <li><strong>Withdrawing:</strong> you can withdraw at any time in <strong>Profile → Data &amp; Privacy → Mood Logging</strong>. We then
+    permanently delete all your mood check-ins, and any saved reports that include mood statistics, from your devices and our servers.
+    If you're offline, they're removed from your device straight away and deleted from our servers automatically next time you're online;
+    the app shows this as pending until then. Other devices signed in to your account delete their copies the next time they connect.
+    Withdrawal doesn't affect processing that happened before it.</li>
+  </ul>
+  <h3>What you say in habit updates</h3>
+  <p>The full text of what you say or type in a habit update is sent to our AI provider so it can be turned into habits, whether or not
+  mood logging is on. If you mention how you're feeling, that text goes too. Without your mood consent, no mood is suggested or saved
+  from it; with it, the AI may suggest a mood that is only saved if you confirm it. If you'd rather not share how you feel, leave it out of
+  your habit updates.</p>
+
+  <h2 id="ai">4. AI features</h2>
+  <p>Habit parsing, the AI Coach and Premium report text are generated by <strong>OpenAI</strong> (model: GPT-4o mini), which acts as our data processor.
+  Requests go through our own server, never directly from your device, and never include your name, email or password.</p>
+  <ul>
+    <li>Our requests tell OpenAI <strong>not to store</strong> the response for later retrieval.</li>
+    <li>OpenAI doesn't use data sent through its API to train its models. Our OpenAI organisation also uses <strong>Zero Data Retention</strong>,
+    so OpenAI doesn't keep the content of our requests or its replies after processing them.</li>
+    <li>The AI only suggests. Nothing it proposes (habits or a mood) is saved until you review and confirm it, and the Coach cannot create, change or delete your data.</li>
+    <li>Streaks, completion rates and other statistics are calculated by the app itself, not by AI.</li>
+  </ul>
+  <p><strong>AI output can be wrong.</strong> The app and its Coach give general wellbeing and habit suggestions. They are not medical, psychological or professional advice.
+  If you're worried about your health or mood, please speak to a qualified professional.</p>
+  <h3>AI model development</h3>
+  <p>We are <strong>not</strong> currently using your personal information to train AI models. We may want to develop our own models in the future.
+  Before doing so we will review the data-protection requirements, explain what information would be used and why, put appropriate safeguards in place,
+  and ask for your separate consent where required. Accepting this policy does not mean you agree to future AI training.</p>
+
+  <h2 id="sharing">5. Who we share your data with</h2>
+  <p>We don't sell or rent your personal data. We share it only with these service providers, under contracts that require them to protect it:</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Provider</th><th>What for</th><th>Location</th></tr></thead>
+    <tbody>
+      <tr><td>Supabase</td><td>Authentication, database, server functions and hosting, including subscription verification records (processor)</td><td>European Union (Ireland)</td></tr>
+      <tr><td>OpenAI</td><td>Generating habit suggestions, Coach replies and report text (processor)</td><td>United States</td></tr>
+      <tr><td>Apple</td><td>Sign in with Apple, speech recognition, App Store purchases and subscriptions, purchase verification and subscription notifications</td><td>Apple acts as an independent controller under <a href="https://www.apple.com/legal/privacy/">its own privacy policy</a></td></tr>
+    </tbody>
+  </table></div>
+  <p>We may also disclose data if the law requires it, or to protect the rights, safety or property of our users or others.</p>
+
+  <h2 id="transfers">6. International transfers</h2>
+  <p>Some providers process data outside the UK, including in the United States. Where this happens, we rely on appropriate safeguards, such as
+  UK adequacy regulations (including the UK–US “data bridge” for certified organisations) or the UK International Data Transfer Addendum to the EU Standard Contractual Clauses.
+  Our database is hosted in the European Union (Ireland), which the UK recognises as providing adequate protection. Requests to OpenAI are
+  processed in the United States under the safeguards in OpenAI's data processing terms.</p>
+
+  <h2 id="retention">7. How long we keep your data</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Data</th><th>Kept for</th></tr></thead>
+    <tbody>
+      <tr><td>Account, habits, completions, mood check-ins, saved reports</td><td>While your account exists. Deleted when you delete your account.</td></tr>
+      <tr><td>Mood check-ins and reports with mood statistics, after you withdraw mood consent</td><td>Permanently deleted straight away (or as soon as your device is back online)</td></tr>
+      <tr><td>Mood consent records (dates, wording version, deletion counts)</td><td>While your account exists, as proof of consent. Deleted when you delete your account.</td></tr>
+      <tr><td>Account deletion records</td><td>12 months, then deleted automatically. Each holds only a random reference number, the date, and whether disconnecting Sign in with Apple succeeded (and, if not, at which step). It contains nothing that identifies you. We keep it so we can show your deletion request was carried out and help if you contact us with the reference.</td></tr>
+      <tr><td>Items you delete individually (habits, completions, single mood check-ins)</td><td>Removed from the app straight away. On our servers they're kept as deletion markers (a deleted mood check-in loses its note) so your other devices stay in sync. We don't currently erase these markers automatically; they're permanently deleted when you delete your account, or on request.</td></tr>
+      <tr><td>Premium entitlement records (verified subscription status and transaction identifiers)</td><td>While your account exists, so Premium keeps working across devices and reinstalls. Deleted when you delete your account.</td></tr>
+      <tr><td>Log of Apple's subscription notifications (type, date, original transaction identifier; no name, email or account id)</td><td>Kept to keep subscription status correct. We don't currently delete this log automatically. It contains no name, email or account id.</td></tr>
+      <tr><td>Daily AI usage counts</td><td>While your account exists. Deleted when you delete your account.</td></tr>
+      <tr><td>Guest accounts</td><td>Until deleted. We don't currently delete unused guest accounts automatically; email us to have one deleted (see below).</td></tr>
+      <tr><td>Coach conversation history</td><td>On your device only, until you delete it or your account</td></tr>
+      <tr><td>Server logs</td><td>Kept briefly by Supabase under its own retention rules for our plan. They don't contain your habit titles, transcripts or messages.</td></tr>
+      <tr><td>Backups</td><td>Any database backups are managed by Supabase under its own retention rules; deleted data disappears from them as they are replaced.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2 id="security">8. Security</h2>
+  <ul>
+    <li>All data is sent over encrypted connections (HTTPS/TLS).</li>
+    <li>Our database enforces per-account access rules, so each account can only read and change its own data.</li>
+    <li>Secret keys for our AI and database providers are kept only on our servers, never in the app.</li>
+    <li>Our hosting provider encrypts stored data at rest.</li>
+  </ul>
+  <p>No system is perfectly secure. If a breach affects your personal data, we will notify you and the ICO where the law requires.</p>
+
+  <h2 id="deletion">9. Deleting your account</h2>
+  <p>You can permanently delete your account in the app: <strong>Profile → Delete Account</strong>. This deletes your account, profile, habits, completions,
+  mood check-ins, mood consent records, saved reports, usage counts and Premium entitlement records from our servers. It also erases the app's data for that account on your device,
+  including cached reports and your Coach conversations. If you signed in with Apple, you'll be asked to confirm with Apple, and we revoke the app's access to your Apple ID.</p>
+  <p>If Apple's service can't be reached, your account and data are still deleted. The app then tells you how to remove AI Habit Assistant from your
+  Apple ID yourself (Settings → your name → Sign in with Apple) and gives you a reference number. We keep only the minimal deletion record described in
+  <a href="#retention">How long we keep it</a>.</p>
+  <p>Deleting your account does <strong>not</strong> cancel an App Store subscription. Manage or cancel it in your Apple ID settings, or through Manage Subscription in the app.</p>
+  <p><strong>Guest accounts</strong> can't currently be deleted from inside the app. To delete one, upgrade it to an Apple or email account in
+  Profile and then use Delete Account, or email <a href="mailto:testletlink@gmail.com">testletlink@gmail.com</a>. If you can't access the app, email us to ask us to delete your account.</p>
+
+  <h2 id="rights">10. Your rights</h2>
+  <p>Under UK data-protection law you have the right to:</p>
+  <ul>
+    <li>access your personal data and get a copy of it;</li>
+    <li>correct inaccurate data;</li>
+    <li>have your data erased;</li>
+    <li>restrict or object to certain processing;</li>
+    <li>receive your data in a portable format;</li>
+    <li>withdraw consent at any time, where we rely on consent.</li>
+  </ul>
+  <p>To use these rights, email <a href="mailto:testletlink@gmail.com">testletlink@gmail.com</a>. We'll respond within one month. The app doesn't have a self-service export yet, so we'll provide a copy on request.</p>
+  <p>You can also complain to the Information Commissioner's Office (ICO): <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk/make-a-complaint</a>, helpline 0303 123 1113.
+  We'd appreciate the chance to resolve your concern first.</p>
+
+  <h2 id="children">11. Children and teenagers</h2>
+  <p>You must be <strong>13 or older</strong> to use AI Habit Assistant. We don't knowingly collect personal data from children under 13. If you believe
+  a child under 13 has used the app, contact us and we'll delete their data.</p>
+  <p>If you're 13 to 17, please use the app with a parent's or guardian's knowledge. The app is the same for everyone and has
+  high-privacy settings built in: no advertising, no tracking across other apps or websites, no profiling for marketing, no location data, and no
+  social or public features. Mood logging stays off unless you agree to it, and AI suggestions are never saved without your confirmation.
+  The app gives general habit suggestions, not medical or mental-health advice. If you're struggling, please talk to a trusted adult or a
+  professional.</p>
+
+  <h2 id="changes">12. Changes to this policy</h2>
+  <p>We'll update this page when our practices change and update the effective date above. If a change is significant, we'll tell you in the app before it takes effect,
+  and ask for your consent again where the law requires.</p>
+
+  <h2 id="contact">13. Contact</h2>
+  <p>Sara-Michele Craciun<br>Flat 448, Park West, London W2 2QU, United Kingdom<br>
+  <a href="mailto:testletlink@gmail.com">testletlink@gmail.com</a></p>
+
+  <footer class="muted">
+    <a href="terms.html">Terms of Use</a> · © 2026 Sara-Michele Craciun
+  </footer>
+</main>
+</body>
+</html>
